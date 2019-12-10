@@ -27,8 +27,12 @@ export class Projects extends Component {
                 {name:"Wiring Harness Design",
                 type:"modelling",
                 link:"/wiringharness"},
-                
-                
+                {name:"HV Control Board",
+                type:"modelling",
+                link:"/hvcontrolboard"},
+                {name:"Body Control Module Breakout Board",
+                type:"modelling",
+                link:"/bodycontrolmodulebreakoutboard"},
             ]
         }
     }
