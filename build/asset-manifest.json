@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dab30be5.chunk.css",
+    "main.js": "/static/js/main.b4576f50.chunk.js",
+    "main.js.map": "/static/js/main.b4576f50.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e89362ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e89362ac.js.map",
+    "static/css/2.d4c5f937.chunk.css": "/static/css/2.d4c5f937.chunk.css",
+    "static/js/2.5240b5f3.chunk.js": "/static/js/2.5240b5f3.chunk.js",
+    "static/js/2.5240b5f3.chunk.js.map": "/static/js/2.5240b5f3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a45a9b5862893017266c0b1469735def.js": "/precache-manifest.a45a9b5862893017266c0b1469735def.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d4c5f937.chunk.css.map": "/static/css/2.d4c5f937.chunk.css.map",
+    "static/css/main.dab30be5.chunk.css.map": "/static/css/main.dab30be5.chunk.css.map",
+    "static/media/accumulator-thumbnail.png": "/static/media/accumulator-thumbnail.82544635.png",
+    "static/media/aerodynamic-thumbnail.png": "/static/media/aerodynamic-thumbnail.8a83b6f6.png",
+    "static/media/front-view.png": "/static/media/front-view.ecd3be74.png",
+    "static/media/monocoque-thumbnail.png": "/static/media/monocoque-thumbnail.0f7e4a9f.png",
+    "static/media/new wing.png": "/static/media/new wing.a0251829.png",
+    "static/media/original.png": "/static/media/original.ae1f90c1.png",
+    "static/media/thumbnail.png": "/static/media/thumbnail.096a43e7.png",
+    "static/media/top-down-streamlines.png": "/static/media/top-down-streamlines.2842a779.png",
+    "static/media/top-view.png": "/static/media/top-view.56ebecf3.png",
+    "static/media/website-thumbnail.jpg": "/static/media/website-thumbnail.f7048ba0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89362ac.js",
+    "static/css/2.d4c5f937.chunk.css",
+    "static/js/2.5240b5f3.chunk.js",
+    "static/css/main.dab30be5.chunk.css",
+    "static/js/main.b4576f50.chunk.js"
+  ]
+}
