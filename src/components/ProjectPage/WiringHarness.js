@@ -6,7 +6,7 @@ export class WiringHarness extends Component {
     render() {
         return (
             <ProjectPage
-            title="Wiring Harness"
+            title="LV and HV Vehicle Wiring"
             images={[
                 {
                 description:""}]}
