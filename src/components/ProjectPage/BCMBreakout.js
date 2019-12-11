@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 
 import ProjectPage from './ProjectPage';
 
-import mainpic from './../../img/Wiring Harness/Wiring Harness.jpg';
+import mainpic from './../../img/BCMBreakout/BCM Breakout Board.jpg';
 
-export class WiringHarness extends Component {
+export class BCMBreakout extends Component {
     render() {
         return (
             <ProjectPage
-            title="Low Voltage and High Voltage Vehicle Wiring"
+            title="Body Control Module Breakout Board"
             images={[
                 {image:mainpic,
                 description:""}]}
@@ -18,4 +18,4 @@ export class WiringHarness extends Component {
     }
 }
 
-export default WiringHarness
+export default BCMBreakout
