@@ -5,7 +5,9 @@ import ProjectLink from '../ProjectLink/ProjectLink';
 import bcmthumbnail from './../../img/bcm/BCM Render.png';
 import acbthumbnail from './../../img/acb/ACB Render Black.png';
 import shutdownthumbnail from './../../img/shutdown/Shutdown Circuit.png';
-import aerodynamicThumbnail from './../../img/aerodynamics/thumbnail.png';
+import wiringharnessthumbnail from './../../img/Wiring Harness/Wiring Harness.png';
+import hvcontrolboardthumbnail from './../../img/HV Control Board/HV Control Board Render Black.png';
+import bcmbreakoutthumbnail from './../../img/BCM Breakout/BCM Breakout Board.jpg';
 
 export class Projects extends Component {
     constructor(props){
@@ -26,13 +28,16 @@ export class Projects extends Component {
                 link:"/shutdowncircuit"},
                 {name:"Wiring Harness Design",
                 type:"modelling",
+                thumbnail:wiringharnessthumbnail,
                 link:"/wiringharness"},
                 {name:"HV Control Board",
                 type:"modelling",
+                thumbnail:hvcontrolboardthumbnail,
                 link:"/hvcontrolboard"},
                 {name:"Body Control Module Breakout Board",
                 type:"modelling",
-                link:"/bodycontrolmodulebreakoutboard"},
+                thumbnail:bcmbreakoutthumbnail,
+                link:"/bodycontrolmodulebreakoutboard"}
             ]
         }
     }

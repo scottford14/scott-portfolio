@@ -8,7 +8,7 @@ export class Formula extends Component {
             <div className="formula-container">
                 <div className="intro-paragraph-container">
                     <p className="intro-paragraph">
-                        Welcome to my portfolio.  Outlined below are some of the projects I have worked on while on MAC Formula Electric - a fully student run team working to design and manufacture a fully electric, formula style racecar.
+                        Welcome to my portfolio.  Outlined below are some of the projects I have worked on while on MAC Formula Electric - a fully student run team working to design and manufacture a fully electric, formula 1 style racecar.
                     </p>
                 </div>
                 <div className="formula-name-container">
