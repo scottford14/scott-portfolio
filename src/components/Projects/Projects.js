@@ -6,7 +6,7 @@ import bcmthumbnail from './../../img/bcm/BCM Render.png';
 import acbthumbnail from './../../img/acb/ACB Render Black.png';
 import shutdownthumbnail from './../../img/shutdown/Shutdown Circuit.png';
 import wiringharnessthumbnail from './../../img/Wiring Harness/Wiring Harness.jpg';
-import hvcontrolboardthumbnail from './../../img/HV Control Board/HV Control Board Render Black.png';
+import hvcontrolboardthumbnail from './../../img/HV Control Board/HV Control Board Render Black.PNG';
 import bcmbreakoutthumbnail from './../../img/BCM Breakout/BCM Breakout Board.jpg';
 
 export class Projects extends Component {
