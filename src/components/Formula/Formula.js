@@ -12,7 +12,7 @@ export class Formula extends Component {
                     </p>
                 </div>
                 <div className="formula-name-container">
-                    <h1 className="formula-name">MAC Formula Electric <span className="projects-title">projects</span></h1>
+                    <h1 className="formula-name">MAC Formula Electric <span className="projects-title">My Projects</span></h1>
                 </div>
                 <Projects />
                 
