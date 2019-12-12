@@ -6,6 +6,7 @@ import render from './../../img/BCM Breakout/BCM Breakout Board.jpg';
 import schematic from './../../img/BCM Breakout/BCM Breakout Schematic.PNG';
 import blank from './../../img/BCM Breakout/BCM Breakout 1.jpg';
 import assembled from './../../img/BCM Breakout/BCM Breakout Assembled Side.jpg';
+import swrender from './../../img/BCM Breakout/SW Render.png';
 
 export class BCMBreakout extends Component {
     render() {
@@ -13,6 +14,8 @@ export class BCMBreakout extends Component {
             <ProjectPage
             title="Body Control Module Breakout Board"
             images={[
+                {image:swrender,
+                description:"Solidworks rendering of the PCB after completing the layout"},
                 {image:render,
                 description:"Altium rendering of the PCB after completing the layout"},
                 {image:schematic,
