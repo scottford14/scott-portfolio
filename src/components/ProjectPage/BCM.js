@@ -18,7 +18,7 @@ export class BCM extends Component {
                 {image: render,
                 description:"Altium rendering of the PCB after completing the layout"},
                 {image: schematic,
-                description:"Top level schematic for all circuits located on the board (17 total)"},
+                description:"Top level schematic for all LV and HV circuits located on the board (17 total)"},
                 {image: bcmblank,
                 description:"Board after arriving from PCB vendor, ready for assembly"},
                 {image: assembly,
