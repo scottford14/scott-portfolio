@@ -24,7 +24,7 @@ export class ACB extends Component {
                 description:"Board after completing the soldering of all components to the PCB, and mounted to Kevlar plate in the battery pack"},
                 {image: location,
                 description:"Location of board within the vehicles HV battery pack"}]}
-            description="The Accumulator Control Board, ACB for short, is a board that interfaces between the BMS and the rest of the vehicles control systems, and implements safety circuitry needed to ensure the battery pack is safe. The board allows for PWM control of the battery cooling fans, decreasing power usage under light loads, and also implements shutdown circuitry in the case that a ground fault occurs, or the BMS has a fault. Finally, the board implements the precharge circuitry necessary for safely charging up the tractive system capacitors."
+            description="The Accumulator Control Board, ACB for short, is a board that interfaces between the BMS and the rest of the vehicles control systems, and implements safety circuitry needed to ensure the battery pack is safe. The board allows for PWM control of the battery cooling fans, decreasing power usage under light loads, and also implements shutdown circuitry in the case that a ground fault occurs, or the BMS has a fault. Finally, the board implements the precharge circuitry necessary for safely charging up the tractive system capacitors. After receiving the board from the manufacturer, I soldered all componets and tested the boards functionality to ensure no errors were made."
             />
         )
     }
