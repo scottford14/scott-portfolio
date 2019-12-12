@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 import ProjectPage from './ProjectPage';
 
-import render from './../../img/BCMBreakout/BCM Breakout Board.jpg';
-import schematic from './../../img/BCMBreakout/BCM Breakout Schematic.PNG';
-import blank from './../../img/BCMBreakout/BCM Breakout 1.jpg';
-import assembled from './../../img/BCMBreakout/BCM Breakout Assembled Side.jpg';
+import render from './../../img/BCM Breakout/BCM Breakout Board.jpg';
+import schematic from './../../img/BCM Breakout/BCM Breakout Schematic.PNG';
+import blank from './../../img/BCM Breakout/BCM Breakout 1.jpg';
+import assembled from './../../img/BCM Breakout/BCM Breakout Assembled Side.jpg';
 
 export class BCMBreakout extends Component {
     render() {

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import ProjectPage from './ProjectPage';
 
-import render from './../../img/acb/ACB Render Black.png';
+import render from './../../img/HV Control Board/HV Control Board Render Black.PNG';
 
 export class HVControlBoard extends Component {
     render() {
