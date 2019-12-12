@@ -16,7 +16,7 @@ export class BCM extends Component {
             title="Body Control Module"
             images={[
                 {image: render,
-                description:"Altium Rendering of the PCB after completing the layout"},
+                description:"Altium rendering of the PCB after completing the layout"},
                 {image: schematic,
                 description:"Top level schematic for all circuits located on the board (17 total)"},
                 {image: bcmblank,
