@@ -22,22 +22,23 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:acbthumbnail,
                 link:"/accumulatorcontrolboard"},
-                {name:"Shutdown Circuit Design",
-                type:"modelling",
-                thumbnail:shutdownthumbnail,
-                link:"/shutdowncircuit"},
                 {name:"Vehicle Wiring Design",
                 type:"modelling",
                 thumbnail:wiringharnessthumbnail,
                 link:"/wiringharness"},
-                {name:"HV Control Board",
-                type:"modelling",
-                thumbnail:hvcontrolboardthumbnail,
-                link:"/hvcontrolboard"},
                 {name:"Body Control Module Breakout Board",
                 type:"modelling",
                 thumbnail:bcmbreakoutthumbnail,
-                link:"/bodycontrolmodulebreakoutboard"}
+                link:"/bodycontrolmodulebreakoutboard"},
+                {name:"Shutdown Circuit Design",
+                type:"modelling",
+                thumbnail:shutdownthumbnail,
+                link:"/shutdowncircuit"},
+                {name:"HV Control Board",
+                type:"modelling",
+                thumbnail:hvcontrolboardthumbnail,
+                link:"/hvcontrolboard"}
+
             ]
         }
     }
