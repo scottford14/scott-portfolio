@@ -25,6 +25,10 @@ function App() {
         component={Shutdown} />
         <Route path="/wiringharness" 
         component={WiringHarness} />
+        <Route path="/bodycontrolmodulebreakoutboard" 
+        component={BCMBreakout} />
+        <Route path="/hvcontrolboard" 
+        component={HVControlBoard} />
       </div>
     </Router>
   );

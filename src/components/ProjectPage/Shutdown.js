@@ -10,7 +10,7 @@ export class Shutdown extends Component {
     render() {
         return (
             <ProjectPage
-            title="Shutdown Circuity"
+            title="Shutdown Circuitry"
             images={[
                 {image: vehicleshutdown,
                 description:""},
@@ -18,7 +18,7 @@ export class Shutdown extends Component {
                 description:""},
                 {image: testing,
                 description:""}]}
-            description=""
+            description="The shutdown circuit is a critical safety measure that incorperates various interlocks to deactivate the vehciles tractive system incase of safety risk or errors. "
             />
         )
     }
