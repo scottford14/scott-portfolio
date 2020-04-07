@@ -31,6 +31,10 @@ function App() {
         component={BCMBreakout} />
         <Route path="/hvcontrolboard" 
         component={HVControlBoard} />
+        <Route path="/lvbodycontrolmodule" 
+        component={LVBCM} />
+        <Route path="/lvandhvacb" 
+        component={LVandHVACB} />
       </div>
     </Router>
   );

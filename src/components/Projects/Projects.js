@@ -8,12 +8,22 @@ import shutdownthumbnail from './../../img/shutdown/Shutdown Circuit.png';
 import wiringharnessthumbnail from './../../img/Wiring Harness/Wiring Harness.jpg';
 import hvcontrolboardthumbnail from './../../img/HV Control Board/HV Control Board Render Black.PNG';
 import bcmbreakoutthumbnail from './../../img/BCM Breakout/SW Render.png';
+import lvbcmthumbnail from './../../img/BCM Breakout/SW Render.png';
+import lvandhvacbthumbnail from './../../img/BCM Breakout/SW Render.png';
 
 export class Projects extends Component {
     constructor(props){
         super(props)
         this.state = {
             projects:[
+                {name:"LV and HV Accumulator Control Board",
+                type:"modelling",
+                thumbnail:lvandhvacbthumbnail,
+                link:"/lvandhvacb"},
+                {name:"LV Body Control Module",
+                type:"modelling",
+                thumbnail:lvbcmthumbnail,
+                link:"/lvbodycontrolmodule"},
                 {name:"HV Control Board",
                 type:"modelling",
                 thumbnail:hvcontrolboardthumbnail,
