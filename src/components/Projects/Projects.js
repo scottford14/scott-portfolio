@@ -40,7 +40,7 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:shutdownthumbnail,
                 link:"/shutdowncircuit"},
-                {name:"Body Control Module PCB",
+                {name:"Body Control Module",
                 type:"modelling",
                 thumbnail:bcmthumbnail,
                 link:"/bodycontrolmodule"},

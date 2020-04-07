@@ -12,7 +12,7 @@ export class ACB extends Component {
     render() {
         return (
             <ProjectPage
-            title="Accumulator Control Board"
+            title="Accumulator Control Board - 2018/2019 Season"
             images={[
                 {image: render,
                 description:"Altium rendering of the PCB after completing the layout"},
@@ -24,7 +24,7 @@ export class ACB extends Component {
                 description:"Board after completing the soldering of all components to the PCB, and mounted to Kevlar plate in the battery pack"},
                 {image: location,
                 description:"Location of board within the vehicles HV battery pack"}]}
-            description="The Accumulator Control Board, ACB for short, is a board that interfaces between the BMS and the rest of the vehicles control systems, and implements safety circuitry needed to ensure the battery pack is safe. The board allows for PWM control of the battery cooling fans, decreasing power usage under light loads, and also implements shutdown circuitry in the case that a ground fault occurs, or the BMS has a fault. Finally, the board implements the precharge circuitry necessary for safely charging up the tractive system capacitors. After receiving the board from the manufacturer, I soldered all componets and tested the boards functionality to ensure no errors were made."
+            description="The Accumulator Control Board, ACB for short, is a board that I designed to interface between our Elithion decentralized BMS and the rest of the vehicles control systems. I also designed safety circuitry needed to ensure the battery pack is safe, detecting various fault conditions from the BMS (cell overvoltage, overtemperature, etc) as well as ground faults from the insulation monitoring device in the battery pack. The board also allows for PWM control of the battery cooling fans, decreasing low voltage power usage under light loads. Finally, I designed the precharge circuitry necessary for safely charging up the tractive system capacitors, considering factors such as desired precharge time, power dissipation, maximum current, etc. After receiving the board from the manufacturer, I soldered all componets and tested the boards functionality to ensure no errors were made, and also built the wiring harnesses to connect the BMS and the ACB, as well as the other necessary LV connections in the battery pack."
             />
         )
     }
