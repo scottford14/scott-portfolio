@@ -11,6 +11,8 @@ import Shutdown from './components/ProjectPage/Shutdown';
 import WiringHarness from './components/ProjectPage/WiringHarness';
 import BCMBreakout from './components/ProjectPage/BCMBreakout';
 import HVControlBoard from './components/ProjectPage/HVControlBoard';
+import LVBCM from './components/ProjectPage/LVBCM';
+import LVandHVACB from './components/ProjectPage/LVandHVACB';
 
 function App() {
   return (
