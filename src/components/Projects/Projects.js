@@ -14,14 +14,10 @@ export class Projects extends Component {
         super(props)
         this.state = {
             projects:[
-                {name:"Body Control Module PCB",
+                {name:"HV Control Board",
                 type:"modelling",
-                thumbnail:bcmthumbnail,
-                link:"/bodycontrolmodule"},
-                {name:"Accumulator Control Board",
-                type:"modelling",
-                thumbnail:acbthumbnail,
-                link:"/accumulatorcontrolboard"},
+                thumbnail:hvcontrolboardthumbnail,
+                link:"/hvcontrolboard"},
                 {name:"Vehicle Wiring Design",
                 type:"modelling",
                 thumbnail:wiringharnessthumbnail,
@@ -34,11 +30,14 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:shutdownthumbnail,
                 link:"/shutdowncircuit"},
-                {name:"HV Control Board",
+                {name:"Body Control Module PCB",
                 type:"modelling",
-                thumbnail:hvcontrolboardthumbnail,
-                link:"/hvcontrolboard"}
-
+                thumbnail:bcmthumbnail,
+                link:"/bodycontrolmodule"},
+                {name:"Accumulator Control Board",
+                type:"modelling",
+                thumbnail:acbthumbnail,
+                link:"/accumulatorcontrolboard"}
             ]
         }
     }
