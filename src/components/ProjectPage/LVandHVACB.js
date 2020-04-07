@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ProjectPage from './ProjectPage';
 
-import render from './../../img/lvbcm/LV BCM Render.PNG';
+import render from './../../img/lvandhvacb/so-close.JPG';
 
 
 export class LVandHVACB extends Component {

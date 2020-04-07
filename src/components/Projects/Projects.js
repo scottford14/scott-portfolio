@@ -8,8 +8,8 @@ import shutdownthumbnail from './../../img/shutdown/Shutdown Circuit.png';
 import wiringharnessthumbnail from './../../img/Wiring Harness/Wiring Harness.jpg';
 import hvcontrolboardthumbnail from './../../img/HV Control Board/HV Control Board Render Black.PNG';
 import bcmbreakoutthumbnail from './../../img/BCM Breakout/SW Render.png';
-import lvbcmthumbnail from './../../img/bcm/BCM Render.png';
-import lvandhvacbthumbnail from './../../img/BCM Breakout/SW Render.png';
+import lvbcmthumbnail from './../../img/lvbcm/LV BCM Render.PNG';
+import lvandhvacbthumbnail from './../../img/lvandhvacb/so-close.JPG';
 
 export class Projects extends Component {
     constructor(props){
