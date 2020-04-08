@@ -14,7 +14,7 @@ export class HVControlBoard extends Component {
             title="HV Control Board"
             images={[
                 {image: render,
-                description:"Altium rendering of the PCB after completing the layout"},
+                description:"Altium rendering of the PCB after I completed the layout"},
                 {image: drawing,
                 description:"Board location shown in full vehicle assembly, see red highlight. Drawing done by Jared Cox - Mechanical Team Captain"},
                 {image: top,

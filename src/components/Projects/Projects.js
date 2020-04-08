@@ -9,7 +9,7 @@ import wiringharnessthumbnail from './../../img/Wiring Harness/Wiring Harness.jp
 import hvcontrolboardthumbnail from './../../img/HV Control Board/HV Control Board Render Black.PNG';
 import bcmbreakoutthumbnail from './../../img/BCM Breakout/SW Render.png';
 import lvbcmthumbnail from './../../img/lvbcm/LV BCM Render.PNG';
-import lvandhvacbthumbnail from './../../img/lvandhvacb/so-close.JPG';
+import lvandhvacbthumbnail from './../../img/lvandhvacb/close.JPG';
 
 export class Projects extends Component {
     constructor(props){
