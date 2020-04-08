@@ -23,13 +23,13 @@ export class LVandHVACB extends Component {
                 {image: lvrender,
                 description:"Altium rendering of the LV Accumulator Control Board PCB after completing the layout"},
                 {image: close,
-                description:"Close up render of the LV Accumulator Control Board, in the accumulator PCB plate assembly. Render done by Jared Cox - Mechanical Team Captain"},
+                description:"Close up render of the LV Accumulator Control Board, in the accumulator PCB plate assembly."},
                 {image: iso,
-                description:"Render of the accumulator PCB plate assembly, including the LV and HV Accumulator Control Boards. Render done by Jared Cox - Mechanical Team Captain"},
+                description:"Render of the accumulator PCB plate assembly, including the LV and HV Accumulator Control Boards."},
                 {image: top,
-                description:"Render of the accumulator PCB plate assembly, including the LV and HV Accumulator Control Boards. Render done by Jared Cox - Mechanical Team Captain"},
+                description:"Render of the accumulator PCB plate assembly, including the LV and HV Accumulator Control Boards."},
                 {image: front,
-                description:"Render of the accumulator PCB plate assembly, including the LV and HV Accumulator Control Boards. Render done by Jared Cox - Mechanical Team Captain"}]}
+                description:"Render of the accumulator PCB plate assembly, including the LV and HV Accumulator Control Boards."}]}
             description=""
             />
         )
