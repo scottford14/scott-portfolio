@@ -20,7 +20,7 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:lvandhvacbthumbnail,
                 link:"/lvandhvacb"},
-                {name:"LV Body Control Module",
+                {name:"Body Control Module Rev. 2",
                 type:"modelling",
                 thumbnail:lvbcmthumbnail,
                 link:"/lvbodycontrolmodule"},
