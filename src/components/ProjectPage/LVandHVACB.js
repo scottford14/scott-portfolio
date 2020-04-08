@@ -15,10 +15,10 @@ export class LVandHVACB extends Component {
     render() {
         return (
             <ProjectPage
-            title="LV and HV Accumulator Control Board"
+            title="Battery Pack Packaging and PCB Development - 2019/2020 Season"
             images={[
                 {image: upclose,
-                description:"Close up render of the HV Accumulator Control Board. Render done by Jared Cox - Mechanical Team Captain"},
+                description:"Close up render of the HV Accumulator Control Board."},
                 {image: hvrender,
                 description:"Altium rendering of the HV Accumulator Control Board PCB after completing the layout"},
                 {image: lvrender,

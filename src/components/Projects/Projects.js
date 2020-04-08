@@ -16,7 +16,7 @@ export class Projects extends Component {
         super(props)
         this.state = {
             projects:[
-                {name:"LV and HV Accumulator Control Board",
+                {name:"Battery Pack Packaging and PCB Development",
                 type:"modelling",
                 thumbnail:lvandhvacbthumbnail,
                 link:"/lvandhvacb"},
