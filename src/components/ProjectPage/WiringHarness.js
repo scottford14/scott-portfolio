@@ -13,7 +13,7 @@ export class WiringHarness extends Component {
     render() {
         return (
             <ProjectPage
-            title="Low Voltage and High Voltage Vehicle Wiring"
+            title="2019 Car's Low Voltage and High Voltage Vehicle Wiring"
             images={[
                 {image:full,
                 description:"eCAD render showing the wiring connections in the car"},

@@ -28,7 +28,7 @@ export class Projects extends Component {
                 type:"modelling",
                 thumbnail:hvcontrolboardthumbnail,
                 link:"/hvcontrolboard"},
-                {name:"Vehicle Wiring Design",
+                {name:"Vehicle Wiring Design - 2019",
                 type:"modelling",
                 thumbnail:wiringharnessthumbnail,
                 link:"/wiringharness"},
