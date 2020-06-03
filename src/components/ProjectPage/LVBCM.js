@@ -5,6 +5,9 @@ import render from './../../img/lvbcm/LV BCM Render.PNG';
 import drawing from './../../img/lvbcm/LV BCM in drawing.PNG';
 import top from './../../img/lvbcm/LV BCM top.jpg';
 import side from  './../../img/lvbcm/LV BCM side.jpg';
+import enclosuretop from './../../img/lvbcm/LV BCM top.png';
+import enclosureiso from './../../img/lvbcm/LV BCM iso.png';
+import enclosurecutout from './../../img/lvbcm/LV BCM Packaging.png';
 
 export class LVBCM extends Component {
     render() {
@@ -16,11 +19,17 @@ export class LVBCM extends Component {
                 description:"Altium rendering of the PCB after I completed the layout"},
                 {image: drawing,
                 description:"Board location shown in full vehicle assembly, see red highlight. Drawing done by Jared Cox - Mechanical Team Captain"},
+                {image: enclosurecutout,
+                description:"Board location in CAD assembly, within its carbon fiber enclosure"},
+                {image: enclosuretop,
+                description:"Board shown in its lightweight carbon fiber enclosure"},
+                {image: enclosureiso,
+                description:"Board shown in its lightweight carbon fiber enclosure"},
                 {image: top,
                 description:"Board after completing the soldering of all components to the PCB"},
                 {image: side,
                 description:"Board after completing the soldering of all components to the PCB"}]}
-            description="For the 2020 car, there were 3 main design goals for the updated Body Control Module. The first was to improve the efficiency of the circuits, reducing LV power draw. The second was to improve packaging, reducing board area and better fitting the board within the carbon monocoque. The last goal was to add sensors for improved torque vectoring of the 4 outboard motors. The first goal was achieved through two main circuit changes, the first being replacing the linear voltage regulators with switching regulators. This greatly reduced the power lost to heat inside of the enclosure as the switching regulators that were used are over 90% efficient. The second circuit change to improve efficiency was using ultra low RDSon MOSFETs for the PWM control of the cooling loop fans and pumps. These devices draw a total of 20A at 12V, so a reduction in RDSon yields a linear reduction in power dissipated in the MOSFETs. As for the second goal, I modified the aspect ratio of the board to be much more rectangular, in order to fit the board inside of the dashboard hump in the vehicle’s chassis (see photo #2 for packaging). This allowed for more room for the driver’s legs, as well as simpler cable routing. The final goal to improve torque vectoring was achieved by adding both a 3-axis accelerometer and GPS to the board. Combined with data from vehicle speed sensors and a steering angle sensor, theadditional data from the accelerometer and GPS allowed the high-level vehicle controller to perform more sophisticated toque vectoring algorithms. Other changes to the board included the removal of all HV circuitry, which was moved to a separate board located in the back of the chassis which is much closer to the HV battery pack, allowing for easier cable routing and packaging."
+            description="For the 2020 car, there were 3 main design goals for the updated Body Control Module. The first was to improve the efficiency of the circuits, reducing LV power draw. The second was to improve packaging, reducing board area and better fitting the board within the carbon monocoque. The last goal was to add sensors for improved torque vectoring of the 4 outboard motors. The first goal was achieved through two main circuit changes, the first being replacing the linear voltage regulators with switching regulators. This greatly reduced the power lost to heat inside of the enclosure as the switching regulators that were used are over 90% efficient. The second circuit change to improve efficiency was using ultra low RDSon MOSFETs for the PWM control of the cooling loop fans and pumps. These devices draw a total of 20A at 12V, so a reduction in RDSon yields a linear reduction in power dissipated in the MOSFETs. As for the second goal, I modified the aspect ratio of the board to be much more rectangular, in order to fit the board inside of the dashboard hump in the vehicle’s chassis (see photo #2 for packaging). This allowed for more room for the driver’s legs, as well as simpler cable routing. The final goal to improve torque vectoring was achieved by adding both a 3-axis accelerometer and GPS to the board. Combined with data from vehicle speed sensors and a steering angle sensor, theadditional data from the accelerometer and GPS allowed the high-level vehicle controller to perform more sophisticated toque vectoring algorithms. Other changes to the board included the removal of all HV circuitry, which was moved to a separate board located in the back of the chassis which is much closer to the HV battery pack, allowing for easier cable routing and packaging. Renders completed by Jared Cox - Mechanical Team Captain."
             />
         )
     }
