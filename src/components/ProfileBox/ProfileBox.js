@@ -20,9 +20,9 @@ export class ProfileBox extends Component {
                     }
                 </div>
                 <div className="profile-box-school-container">
-                    <h1 className="profile-box-school">McMaster University | Electrical Engineering & Management 2021</h1>
+                    <h1 className="profile-box-school">McMaster University | Electrical Engineering & Management 2022</h1>
                 </div>
-                
+
                 <div className="home-link-container">
                 <Link to="/">
                     <img className={`home-link ${this.props.home}`} src={homelogo}></img>
